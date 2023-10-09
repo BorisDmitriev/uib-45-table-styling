@@ -1,0 +1,27 @@
+.content{
+    width: 60%;
+    margin: 50px auto;
+}
+
+td{
+    padding: 7px;
+    border-left: 4px solid #c0c0c0;
+}
+
+tr:nth-child(odd) td:first-child{
+    border-left: 4px solid #cc181b;
+}
+
+
+tr:not(:nth-child(odd)) td:first-child{
+    border-left: 4px solid #449d45 
+}
+
+
+tr:last-child td:first-child{
+    border-left: 4px solid #449d45 
+}
+
+
+
+
